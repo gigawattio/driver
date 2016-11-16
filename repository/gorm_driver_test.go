@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gigawattio/go-commons/pkg/driver/repository/gormlib"
-	"github.com/gigawattio/go-commons/pkg/testlib"
+	"github.com/gigawattio/driver/repository/gormlib"
+	"github.com/gigawattio/testlib"
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/jinzhu/gorm"

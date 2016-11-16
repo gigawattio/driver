@@ -15,8 +15,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gigawattio/go-commons/pkg/driver/repository/gormlib"
-	"github.com/gigawattio/go-commons/pkg/errorlib"
+	"github.com/gigawattio/driver/repository/gormlib"
+	"github.com/gigawattio/errorlib"
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/jinzhu/gorm"

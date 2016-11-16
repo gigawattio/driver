@@ -5,10 +5,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gigawattio/go-commons/pkg/driver/repository/gormlib"
-	"github.com/gigawattio/go-commons/pkg/errorlib"
-	"github.com/gigawattio/go-commons/pkg/oslib"
-	"github.com/gigawattio/go-commons/pkg/testlib"
+	"github.com/gigawattio/driver/repository/gormlib"
+	"github.com/gigawattio/errorlib"
+	"github.com/gigawattio/oslib"
+	"github.com/gigawattio/testlib"
 
 	"github.com/jinzhu/gorm"
 	"github.com/lib/pq"
