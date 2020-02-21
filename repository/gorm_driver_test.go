@@ -10,9 +10,8 @@ import (
 
 	"github.com/gigawattio/driver/repository/gormlib"
 	"github.com/gigawattio/testlib"
-
-	log "github.com/Sirupsen/logrus"
 	"github.com/jinzhu/gorm"
+	log "github.com/sirupsen/logrus"
 )
 
 type (

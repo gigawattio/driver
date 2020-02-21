@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
 	"github.com/jinzhu/gorm"
 	_ "github.com/lib/pq" // Imported for postgres-driver lib side effects.
+	log "github.com/sirupsen/logrus"
 )
 
 const (
